@@ -1,14 +1,21 @@
-import React from 'react'
+import React from "react";
+import img1  from "../assets/Ecompix/caurosel/bg.jpg";
 
 const Landpage = () => {
   return (
-    <div>Landpage</div>
-  )
-}
+    <div>
+      <div className="w-full absolute">
+        <img src={img1} className="object-contain" />
+      </div>
+    </div>
+  );
+};
 
-export default Landpage
+export default Landpage;
 
-{/* <CiSearch/>
+{
+  /* <CiSearch/>
 <FiUser/>
 <RxHeart/>
-<FiShoppingCart/> */}
+<FiShoppingCart/> */
+}
