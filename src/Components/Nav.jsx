@@ -30,10 +30,18 @@ const Nav = () => {
       </div>
 
       <div className="flex w-44 justify-between items-center">
-        <CiSearch className=""/>
-        <FiUser className=""/>
-        <RxHeart className=""/>
-        <FiShoppingCart className=""/>
+        <a href="/">
+          <CiSearch className="" />
+        </a>
+        <a href="/">
+          <FiUser className="" />
+        </a>
+        <a href="/">
+          <RxHeart className="" />
+        </a>
+        <a href="/">
+          <FiShoppingCart className="" />
+        </a>
       </div>
     </nav>
   );
