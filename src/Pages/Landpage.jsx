@@ -16,9 +16,4 @@ const Landpage = () => {
 
 export default Landpage;
 
-{
-  /* <CiSearch/>
-<FiUser/>
-<RxHeart/>
-<FiShoppingCart/> */
-}
+
